@@ -52,7 +52,7 @@ def logout():
     unset_jwt_cookies(resp)
     return resp, 200
 
-@app.route('/api/testfunction', methods=['GET'])
+@app.route('/api/testFunction', methods=['GET'])
 @jwt_required
 def protected():
     username = get_jwt_identity()    
