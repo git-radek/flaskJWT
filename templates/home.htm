@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Bazooka-API</title>
+<link rel="stylesheet"
+      href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/default.min.css">
+<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!--<link rel="stylesheet" href="/static/js/styles/tomorrow-night.css">
+<script src="/static/js/highlight.min.js"></script>-->
+</head>
+<body>
+    <input placeholder="username" id="username">
+    <input placeholder="pass" id="password">
+    <button onclick="getToken()">getToken</button>
+  <button onclick="testFunction()">testFunction</button>
+  <button onclick="logout()">logout</button>
+  <script src="/static/js/jwt.js"></script>
+  <pre><code class="json" id="result"></code></pre>
+</body>
+</html>
